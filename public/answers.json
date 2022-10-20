@@ -1,0 +1,54 @@
+// _id is the ObjectId added by https://cloud.mongodb.com collection
+// AnswerId -> PrimaryKey
+// QuestionId -> ForiegnKey/SortKey(In DynamoDB)
+
+[
+  {
+    "_id": {
+      "$oid": "635013b7522117e3e0c34f5c"
+    },
+    "QuestionId": "1",
+    "AnswerId": "1",
+    "Answers": {
+      "Q1": "Ash",
+      "Q2": "Spicy",
+      "Q3": "N/A",
+      "Q4": "Brock"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63501568522117e3e0c34f5d"
+    },
+    "AnswerId": "2",
+    "QuestionId": "2",
+    "Answers": {
+      "Q1": "a@a.com",
+      "Q2": "1234567890"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "635015f8522117e3e0c34f5e"
+    },
+    "QuestionId": "1",
+    "AnswerId": "3",
+    "Answers": {
+      "Q1": "Aman",
+      "Q2": "Sweet",
+      "Q3": "Music",
+      "Q4": "Ani"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "635016a6522117e3e0c34f5f"
+    },
+    "QuestionId": "2",
+    "AnswerId": "4",
+    "Answers": {
+      "Q1": "b@b.com",
+      "Q2": "0987654321"
+    }
+  }
+]

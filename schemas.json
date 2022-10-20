@@ -1,0 +1,20 @@
+# Form Schema With Questions
+{
+	"QuestionId": "<string>",
+	"Questions": {
+		"Q1": "<string>",
+		"Q2": "<string>",
+		.....
+	}
+}
+
+# Form Response Schema With Answers
+{
+	"QuestionId": "<string>",
+	"AnswerId": "<string>",
+	"Answers": {
+		"Q1": "<string> or any data type",
+		"Q2": "<string> or any data type",
+		.....
+	}
+}
