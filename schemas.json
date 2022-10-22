@@ -18,3 +18,8 @@
 		.....
 	}
 }
+
+# In DynamoDB, we will have two tables -> Question Table & Answer Table
+# Question Table -> QuestionId as PrimaryKey & We can add QuestionType as SortKey
+# Answer Table -> AnswerId as PrimaryKey & QuestionId as SortKey(Partitioning for quick query of answers for specific question)
+# We can have global/local indexes as well for better query of results.
